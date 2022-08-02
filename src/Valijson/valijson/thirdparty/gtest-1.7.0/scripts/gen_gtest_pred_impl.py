@@ -169,7 +169,7 @@ def Arity(n):
   elif n <= 3:
     return ['nullary', 'unary', 'binary', 'ternary'][n]
   else:
-    return '%s-ary' % n
+    return f'{n}-ary'
 
 
 def Title(word):
